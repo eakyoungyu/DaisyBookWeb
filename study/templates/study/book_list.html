@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>books</title>
+</head>
+<body>
+    {% block content %}
+    <h2>Books</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Cover</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Download</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for book in books %}
+                    <tr>
+                        <td>
+                            {% if book.cover %}
+                                <img src="{{ book.cover.url }} " alt="{{ book.title }}" style="width:100px;">
+                            {% else %}
+                                <span class="text-muted">No cover</span>
+                            {% endif %}
+                        </td>
+                        <td>{{ book.title }}</td>
+                        <td>{{ book.author }}</td>
+                        <td>
+                            <a href="{{ book.pdf.url}}" class="btn btn-primary btn-ss" target="_blank">
+
+                                파일 다운로드
+                            </a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% endblock %}
+</body>
+</html>

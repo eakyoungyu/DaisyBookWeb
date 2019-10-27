@@ -3,13 +3,8 @@ from .models import Book
 
 
 class BookForm(forms.ModelForm):
+    text_files = forms.FileField(widget=forms.ClearableFileInput(attrs={'multiple': True}))
+
     class Meta:
         model = Book
-        fields = ['name']
-
-
-class UploadForm(forms.Form):
-    file_field = forms.FileField(widget=forms.ClearableFileInput(attrs={'multiple': True}))
-
-    def is_valid(self):
-        return True
+        fields = ('name', 'start_page', 'end_page', 'is_poem')

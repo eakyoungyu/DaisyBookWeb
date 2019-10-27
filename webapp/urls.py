@@ -20,7 +20,9 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('daisy/', include('daisy.urls'))
+    path('daisy/', include('daisy.urls')),
+    path('blog/', include('blog.urls')),
+    path('study/', include('study.urls')),
 ]
 
 if settings.DEBUG:

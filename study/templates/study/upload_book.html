@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>upload your book</title>
+</head>
+<body>
+    {% block content %}
+        <h2>Upload book</h2>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form }}
+            <button type="submit" class="btn btn-primary">책 업로드</button>
+        </form>
+    {% endblock %}
+</body>
+</html>
