@@ -11,3 +11,5 @@ C:\Users\eakyo\workspace\PycharmProjects\webapp
 ### model 변경 시
 > manage.py makemigrations\
 > manage.py migrate
+### celery
+> celery -A webapp worker -l info -P eventlet

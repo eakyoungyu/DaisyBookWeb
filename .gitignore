@@ -7,4 +7,7 @@ db.sqlite3
 .DS_Store
 media
 study/migrations
+daisy/migrations
+daisy/key
+daisy/bash.py
 blog

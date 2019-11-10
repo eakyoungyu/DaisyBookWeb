@@ -2,26 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af79eae2-e519-472f-a28d-6f86b3993c8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daisy/templates/daisy/book_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daisy/templates/daisy/class_book_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daisy/templates/daisy/testbook_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daisy/templates/daisy/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daisy/templates/daisy/upload_book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daisy/image_to_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daisy/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daisy/templates/daisy/display_progress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/celery.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daisy/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/daisy/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daisy/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/daisy/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daisy/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/daisy/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daisy/templates/daisy/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/daisy/templates/daisy/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HowToUseDjango.md" beforeDir="false" afterPath="$PROJECT_DIR$/HowToUseDjango.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daisy/templates/daisy/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/daisy/templates/daisy/result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daisy/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/daisy/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daisy/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/daisy/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/templates/study/book_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/study/templates/study/book_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/study/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/study/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/urls.py" afterDir="false" />
     </list>
@@ -47,14 +41,16 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ImageToText-DAISY-book" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BeerProject" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\eakyo\workspace\PycharmProjects\webapp\daisy\migrations" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\eakyo\workspace\PycharmProjects\webapp\daisy\templates\daisy" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\eakyo\workspace\PycharmProjects\webapp\static" />
+      <recent name="C:\Users\eakyo\workspace\PycharmProjects\webapp\daisy\templates\daisy" />
+      <recent name="C:\Users\eakyo\workspace\PycharmProjects\webapp\daisy\migrations" />
     </key>
   </component>
   <component name="RunDashboard">

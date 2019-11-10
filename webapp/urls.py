@@ -23,8 +23,11 @@ urlpatterns = [
     path('daisy/', include('daisy.urls')),
     path('blog/', include('blog.urls')),
     path('study/', include('study.urls')),
+    path('celery-progress/', include('celery_progress.urls')),
 ]
 
+urlpatterns += static(settings.BOOK_URL, document_root=settings.BOOK_ROOT)
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+

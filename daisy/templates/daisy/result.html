@@ -5,8 +5,7 @@
     <title>result</title>
 </head>
 <body>
-    <h1>Welcome to the result page</h1>
-<!--    <a id="id_uploaded_file" href="{ uploadFileModel.file.url }" download>{ uploadFileModel.file.name }</a>-->
-    <p>{{ book_name }}</p>
+    <h1>결과 파일 다운로드</h1>
+    <a class="btn" href="{{ result_file_path }}" download>{{ book_name }}</a>
 </body>
 </html>

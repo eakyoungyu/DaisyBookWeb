@@ -10,6 +10,13 @@ def get_result_file(request):
     return render(request, 'study/result.html')
 
 
+def delete_book(request, pk):
+    if request.method == 'POST':
+        book = TestBook.objects.get(pk=pk)
+        book.delete()
+    return redirect('book_list')
+
+
 def upload(request):
     context = {}
     if request.method == 'POST':
